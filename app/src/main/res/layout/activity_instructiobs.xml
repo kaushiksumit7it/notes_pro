@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instructiobs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions-\n\n1. Register using a real email-id and password, password should be minimum 6 characters long. And then Verify your account\n\n
+2.Login Using the Credintials, Email should be verified and password should be correct\n\n
+3.You can now add, edit and delete your notes and access them from another device also.
+
+\n\n
+The data is stored on cloud, so you can add, edit and delete your notes anytime.
+
+\n\n
+You can read more about us on the About us page"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

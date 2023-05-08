@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" About Us\n\n
+This app is made by Kaushik.\n
+You can visit our website - https://sites.google.com/view/kaushik-website/home?authuser=0\n\n
+
+Who am I?\n\n
+Yes, I am Kaushik. You can contact us on the mail-sudha.kaushik7it@gmail.com.
+\n\n
+You can also fill the form - https://docs.google.com/forms/d/e/1FAIpQLSd7m6VY_XzIiVRbwsL1UyAg5j01OXMA1Z8aEMlovvxybcPQGg/viewform?usp=pp_url
+\n\n
+If you have any bugs, then you can contact us on above email, contact us on our website or fill the above form."
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
